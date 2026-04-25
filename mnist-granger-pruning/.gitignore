@@ -1,0 +1,58 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Archives and compressed downloads
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Accidental duplicate extraction folder
+/mnist/
+
+# Downloaded datasets
+data/MNIST/
+data/**/*.gz
+data/**/*-ubyte
+
+# Generated model checkpoints
+results/models/
+*.pt
+*.pth
+*.ckpt
+
+# Generated pipeline CSV outputs
+results/activations.csv
+results/granger_matrix.csv
+results/granger_matrix_filtered.csv
+results/*_history.csv
+
+# Keep the curated metrics table used by the README/dashboard
+!results/metrics.csv
