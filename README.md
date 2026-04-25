@@ -1,4 +1,4 @@
-````md
+
 # Increasing Neural Network Efficiency Using Neuron Pruning Techniques
 
 ## Final Year Project
